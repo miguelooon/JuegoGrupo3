@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 
 void loop(char m[3][3]);
 void mostrar_tablero(char m[3][3]);
@@ -6,6 +6,7 @@ void colocar_pieza(char m[3][3]);
 void turno(char m[3][3]);
 void victoria(char m[3][3]);
 void pantalla_final(char m[3][3]);
+
 
 int main()
 {
@@ -31,13 +32,13 @@ void mostrar_tablero(char m[3][3])
 };
 
 
-void colocar_pieza(char m[3][3])
+void turno(char m[3][3])
 {
 
 };
 
 
-void turno(char m[3][3])
+void colocar_pieza(char m[3][3])
 {
 
 };
