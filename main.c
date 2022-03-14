@@ -16,6 +16,7 @@ int main()
 };
 
 
+
 void loop(char m[3][3])
 {
      void mostrar_tablero(m);
