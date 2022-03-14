@@ -34,7 +34,15 @@ void mostrar_tablero(char m[3][3])
 
 void turno(char m[3][3])
 {
-
+     int a;
+     for (a=1; a<10; a++){
+          if (a%2==0){
+               printf("Es turno del jugador X");
+          } 
+          else{
+               printf("Es turno del jugador O");
+          }
+     }
 };
 
 
